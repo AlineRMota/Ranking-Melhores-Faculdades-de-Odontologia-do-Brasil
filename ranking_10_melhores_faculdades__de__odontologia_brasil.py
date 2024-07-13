@@ -18,7 +18,7 @@ plt.figure(figsize=(10, 6))
 plt.barh(faculdades, ranking, color='skyblue')
 plt.xlabel('Ranking')
 plt.ylabel('Faculdades')
-plt.gca().invert_yaxis() # Inverte a ordem dos eixos
+plt.gca().invert_yaxis() # Invertendo o eixo Y para mostrar o 1º lugar no topo
 plt.title('Ranking das 10 Melhores Faculdades de Odontologia do Brasil')
 plt.show()
 print("Fonte: RUF 2023 | Folha de São Paulo")
